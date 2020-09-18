@@ -1,0 +1,15 @@
+흐름
+
+client 에서 File 을 in으로 읽는다
+
+in.read에서 out으로 write한다
+
+out.flush()를하여 server로 보낸다.
+
+----------------------------------
+
+client에서 온 out을 in으로 읽는다
+
+in.read에서 out으로 write한다
+
+out.flush()를 하여 File을 생성한다.
